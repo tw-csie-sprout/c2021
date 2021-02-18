@@ -1,0 +1,201 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Template</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/black.css" id="theme">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<h2>Template</h2>
+					<small>2020 資訊之芽 🌱 C 語法班 by 實習講師 Jason</small>
+				</section>
+				<section>
+					<section>
+						<h4>假設今天芽芽請大家寫一個比較數字大小的 Function</h4>
+					</section>
+					<section>
+						<h4>一塊小 🍰！</h4>
+						<pre><code data-line-numbers="" class="cpp">int compare(int a, int b){
+  if (a > b)
+    return 1;
+  else if (a == b)
+    return 0;
+  return -1;
+}
+</code></pre>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h4>再假設芽芽又說你的函式也要支援比較 double</h4>
+					</section>
+					<section>
+						<h2>哼！又一塊小 🍰！</h2>
+						<h4 class="fragment">我還不複製貼上！</h4>
+					</section>
+					<section>
+						<h4>Ctrl-C + Ctrl-V !</h4>
+						<pre><code data-line-numbers="|1|" class="cpp">int compare(double a, double b){
+  if (a > b)
+    return 1;
+  else if (a == b)
+    return 0;
+  return -1;
+}
+</code></pre>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h4>再假設芽芽又說你的函式也要支援比較<br>long long, unsigned int, etc ...</h4>
+					</section>
+					<section>
+						<h4>於是你就</h4>
+						<h4 class="fragment">Ctrl-C + Ctrl-V</h4>
+						<h4 class="fragment">Ctrl-C + Ctrl-V</h4>
+						<h4 class="fragment">Ctrl-C + Ctrl-V</h4>
+						<h4 class="fragment">Ctrl-C + Ctrl-V</h4>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h4>壞份子！Bad！</h4>
+						<img src="./assets/bad.png" width="80%">
+					</section>
+					<section>
+						<h3>複製貼上錯了嗎 😢</h3>
+						<ul>
+							<li class="fragment">整份程式碼落落長 🧐</li>
+							<li class="fragment">Debug 時要 De 很久 🐛</li>
+							<li class="fragment">複製幾次就要改幾次 🤯</li>
+						</ul>
+					</section>
+					<section>
+						<h2>簡而言之就是毒瘤</h2>
+						<img class="fragment" src="./assets/flower.jpg" width="60%">
+					</section>
+				</section>
+				<section>
+					<section>
+						<h2>🤔</h2>
+						<h3 class="fragment">有沒有什麼好方法呢？</h3>
+						<h4 class="fragment">大家一起來想想看吧～</h4>
+					</section>
+					<section>
+						<h4>既然變動的地方只有型別</h4>
+						<h3 class="fragment">那就只要把型別當變數就可以了！</h3>
+					</section>
+					<section>
+						<h3>登登登登！</h3>
+						<img src="./assets/prop.jpg" width="40%">
+						<h4 class="fragment">參數多型<br>Parametric Polymorphism</h4>
+						<small><a href="https://en.wikipedia.org/wiki/Parametric_polymorphism" class="fragment">Wikipedia - Parametric Polymorphism</a></small>
+					</section>
+					<section>
+						<h3>簡而言之</h3>
+						<h4 class="fragment">就是某種讓我們可以把型別參數化的東東</h4>
+						<h4 class="fragment">C++ 透過 Template 來提供這種功能</h4>
+						<small class="fragment">想深究的可以去看範疇論跟函數式編程，但不要來問我因為我不會 😛</small><br>
+						<img src="./assets/sucks.png" width="25%" class="fragment">
+					</section>
+				</section>
+				<section>
+					<section>
+						<h4>怎麼使用 Template 呢？</h4>
+						<h4 class="fragment">以剛剛的 <code>compare()</code> 為例</h4>
+					</section>
+					<section>
+						<h4>以剛剛的 <code>compare()</code> 為例</h4>
+						<pre><code data-line-numbers="|1|2|11-12|" class="cpp">template&lt;typename T&gt;
+int compare(T a, T b){
+  if (a > b)
+    return 1;
+  else if (a == b)
+    return 0;
+  return -1;
+}
+
+int main(){
+  int a = compare&lt;int&gt;(1, 2);
+  double b = compare&lt;double&gt;(1.618, 3.141);
+
+  return 0;
+}
+</code></pre>
+					</section>
+					<section>
+						<h4>回傳型別也可以參數化 😮</h4>
+						<pre><code data-line-numbers="|2|9-10|" class="cpp">template&lt;typename T&gt;
+T minimum(T a, T b){
+  if (a > b)
+    return b;
+  return a;
+}
+
+int main(){
+  int a = min&lt;int&gt;(5, 3);
+  double b = min&lt;double&gt;(1.618, 3.141);
+
+  return 0;
+}
+</code></pre>
+					</section>
+					<section>
+						<h4>還可以有多個型別參數 && 連 Struct 都可以用</h4>
+						<pre><code data-line-numbers="|1|3-4|8-10|" class="cpp">template&lt;typename T1, typename T2&gt;
+struct pair {
+  T1 first;
+  T2 second;
+}
+
+int main(){
+  pair&lt;int, double&gt; a;
+  a.first = 5;
+  a.second = 10.24;
+
+  return 0;
+}
+</code></pre>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h4>雖然使用 Template 並非必要</h4>
+						<h4 class="fragment">但適當的使用可以使程式碼更加精簡</h4>
+						<h4 class="fragment">等等要講的 STL 容器也是用 Template 實作的喔！</h4>
+					</section>
+					<section>
+						<span style="font-size: 1.5em">&lt;/slide&gt;</span>
+					</section>
+				</section>
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>

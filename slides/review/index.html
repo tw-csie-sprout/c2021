@@ -1,0 +1,150 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>回顧與展望</title>
+
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/monokai.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<h3>小複習與未來展望</h3>
+					<p> <small>實習講師 Jason</small> </p>
+				</section>
+				<section>
+					<section>
+						<h4>首先</h4>
+						<h4>經過兩階段的考驗</h4>
+					</section>
+					<section>
+						<h4>先來看看我們的芽芽成員們都學到了什麼吧</h4>
+						<ul>
+							<li class="fragment">表達式與變數</li>
+							<li class="fragment">條件判斷與流程控制</li>
+							<li class="fragment">字元 & 字串 與相關函式</li>
+							<li class="fragment">陣列們</li>
+							<li class="fragment">函式編寫</li>
+							<li class="fragment">遞迴</li>
+						</ul>
+					</section>
+					<section>
+						<h4>第二階段的大家又學到了什麼呢？</h4>
+						<ul>
+							<li class="fragment">時間複雜度</li>
+							<li class="fragment">二分搜與排序</li>
+							<li class="fragment">指標、參照、Struct 指標</li>
+							<li class="fragment">Linked List</li>
+							<li class="fragment">Template</li>
+							<li class="fragment">STL 容器</li>
+						</ul>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h3>殘酷的階段考（？</h3>
+						<img src="./assets/confidence.png" width="85%">
+					</section>
+					<section>
+						<h3>不熟悉的範圍</h3>
+						<img src="./assets/review.png" width="85%">
+						<h4 class="fragment">Top 3 都是指標！</h4>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h3>指標小複習</h3>
+						<h4>其實我做簡報的時候才發現第二階段<br>本來沒有安排複習 😂😂</h4>
+					</section>
+					<section>
+						<h3>指標 <span class="fragment">= 靈活控制記憶體的工具</span></h3>
+						<pre class="fragment"><code class="cpp" data-trim data-line-numbers>
+int a = 3;
+int *b = &a;
+cout << b << endl;	// b = &a = the address of a
+cout << *b << endl;	// *b = *(&a) = a = the value of a
+
+for(int i = 0; i < 100; i++){
+  b = new int;  // allocate new memory with type int to b
+  *b = i;       // change value of memory that b points to
+  delete b;     // free the memory that b points to
+}
+						</code></pre>
+					</section>
+					<section>
+						<h3>Struct Pointer</h3>
+						<pre class="fragment"><code class="cpp" data-trim data-line-numbers>
+struct node {
+  int val;
+  node *next;
+};
+
+node *a = new node; // allocate new memory with type node
+a->val = 1;         // a->val = (*a.val) = the value of val in memory that a points to
+a->next = new node;
+a->next->val = 2;   // a->next->val = (a->next)->val
+a->next->next = nullptr;
+						</code></pre>
+						<small class="fragment">Basically the same thing.</small>
+					</section>
+					<section>
+						<h3>Linked List</h3>
+						<span class="fragment">偷渡面試資芽時的 <a href="https://hackmd.io/@jason1024/S11BErB3S#/" target="_blank">簡報</a>
+						（內附梗圖一張</span><br><br>
+						<small class="fragment">就當作自己在串珠珠或火車之類的就好ㄌ</small>
+					</section>
+					<section>
+						<h3>小複習先到這邊</h3>
+						<h4>其他部分要請大家自己複習了</h4>
+						<h4 class="fragment">(ﾉ>ω<)ﾉ</h4>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h3>未來展望</h3>
+						<h4>講講資工領域都在／可以做什麼？</h4>
+					</section>
+					<section>
+						<h4>沿用前幾年學長姐做的簡報</h4>
+						<a href="https://docs.google.com/presentation/d/1LJS4cmg-7jAaUP-S7E8bxL8cUkMV-GBIlq5O0XXr3dI/edit?usp=sharing" target="
+						">未來展望</a>
+					</section>
+				</section>
+			</div>
+		</div>
+
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				hash: true,
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/highlight/highlight.js' },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+		</script>
+	</body>
+</html>

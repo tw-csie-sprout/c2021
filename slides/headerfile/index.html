@@ -1,0 +1,139 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Header File Intro</title>
+
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/monokai.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<h1>Header File 介紹</h1>
+					<p> <small>實習講師 Jason</small> </p>
+				</section>
+				<section>
+					<section>
+						<h4>從芽芽幼兒園畢業的芽芽們都太會寫程式了</h4>
+						<h4>往往一寫就兩三百行</h4>
+					</section>
+					<section>
+						<h4>當今天程式碼長到快三百行時...</h4>
+						<img class="fragment" src="./assets/code.png" width="80%" alt="">
+					</section>
+					<section>
+						<h4>可能會遇到的問題：</h4>
+						<ol>
+							<li class="fragment">n 個月後回來看 Code 看不懂</li>
+							<li class="fragment">找 Struct, Function 定義要找很久</li>
+							<li class="fragment">Debug 時滾滑鼠滾輪滾到心煩意亂</li>
+						</ol>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h3>解決方法</h3>
+						<ul>
+							<li class="fragment">Coding Style</li>
+							<li class="fragment">Project Structure</li>
+						</ul>
+					</section>
+					<section>
+						<img src="./assets/samefile.png" width="40%" alt="">
+						<h6>Project Structure 也算是 Coding Style 的一環</h6>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h3>舉個 🌰</h3>
+						<pre><code class="plaintext" data-trim>
+	-+- Project Folder
+	 +-+- Library Folder
+	 | +--- Struct / Function Definitions
+	 +--- Readme File
+	 +--- main.{c,cpp}
+	 +--- Makefile
+						</code></pre>
+					</section>
+					<section>
+						<h3>要怎麼把程式碼分散成多個檔案呢？</h3>
+						<h1 class="fragment">Header File</h1>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h4>似曾相似</h4>
+						<pre><code class="cpp" data-trim data-line-numbers>
+	#include &lt;iostream&gt;
+	#include &lt;cmath&gt;
+	#include &lt;string.h&gt;
+						</code></pre>
+						<p class="fragment">因為通常被放在程式碼的最上面<br>所以叫做「標頭檔」</p>
+					</section>
+					<section>
+						<p>標頭檔內通常包含一些「相關」的型別與函數宣告</p>
+						<ul>
+							<li class="fragment">math.h：數學常數與函數</li>
+							<li class="fragment">string.h：C Style 字串處理函數</li>
+							<li class="fragment">time.h, etc... 族繁不及備載</li>
+						</ul>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h3>如何自己寫一個 Header File 呢？</h3>
+					</section>
+					<section>
+						<h4>Steps</h4>
+						<ol>
+							<li>建立一個新標頭檔 ex: <code>student.h</code></li>
+							<li>在其中放入相關定義</li>
+							<li>在要引用的程式碼中 include</li>
+						</ol>
+						<pre class="fragment"><code class="cpp" data-trim data-line-numbers>
+#include "student.h"
+						</code></pre>
+					</section>
+					<section>
+						<h3>成就獲得：人生第一次寫標頭檔！</h3>
+						<small class="fragment">現在大家可以自行練習利用標頭檔實作剛剛提到的的成績統計程式囉！</small>
+					</section>
+				</section>
+			</div>
+		</div>
+
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				hash: true,
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/highlight/highlight.js' },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+		</script>
+	</body>
+</html>
