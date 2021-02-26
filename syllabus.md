@@ -24,7 +24,7 @@
 | 0522 |  12  | 公布大作業   | C++ string、C++ file/string stream                      |
 | 0529 |  13  |            | struct(\*ptr)、new/delete、linked-list
 | 0605 |  14  |            | template、STL (資料結構, vector, list, queue, stack)  |
-| 0612 |  15  |            | 遞迴、sort (cmp)、next_permutation、展望與回顧 |       
-| 0619 |  16  | <font color="#F08080">Deadline</font> | <font color="#f00">補課放假</font>                                  |
-| 0626 |  17  |            | <font color="#f00">因端午連假，故本週放假</font>                      |
+| 0612 |  15  |            | <font color="#f00">因端午連假，故本週放假</font>  |       
+| 0619 |  16  | <font color="#F08080">Deadline</font> |   遞迴、sort (cmp)、next_permutation、展望與回顧                               |
+| 0626 |  17  |            | <font color="#f00">因適逢高中段考週，故本週放假</font>                      |
 | 0703 |  18  |            | 第二階段檢定考試                                   |
