@@ -4,7 +4,7 @@
 
 | 主題         | 北區                                      | 影片 | 竹區 |
 | ------------ | ----------------------------------------- | ---- | ---- |
-| 課程介紹     | [Week1-0 課程介紹][tp-intro]              |      |      |
+| 課程介紹     | [Week1-0 課程介紹][tp-intro]              |      |  [Week1-0 課程介紹][hc-intro]    |
 | Hello World! | [Week1-1 Hello C/C++][tp-getting-started] |      |      |
 | 變數         | [Week1-2 變數][tp-variables]              |      |      |
 
