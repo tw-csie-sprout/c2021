@@ -15,3 +15,13 @@
 [hc-intro]: https://docs.google.com/presentation/d/1e1REcy_nbvigyJs79X21qmIsjrq-xvYVJlRaqDChgD8/edit?usp=sharing
 [hc-getting-started]: https://docs.google.com/presentation/d/1PKSi_w4ByfEqsdobigMur0aPyXr9IeAcvP3H4d2ISiY/edit?usp=sharing
 [hc-variables]: https://slides.com/hsutzu/variable
+
+## 第二週投影片 03/13
+
+| 主題         | 北區                                      | 影片 | 竹區 |
+| ------------ | ----------------------------------------- | ---- | ---- |
+| if-else      |                                           |      | [Week2-0 if-else][hc-if-else]    |
+| while loop   |                                           |      | [Week2-1 while][hc-while]     |
+
+[hc-if-else]: https://docs.google.com/presentation/d/1ZOdWIh0Uvy6w6cOxNIVj8DJDrhSQY1elhFzm9mVeXmk/edit?usp=sharing
+[hc-while]: https://drive.google.com/file/d/1Z96tUIa7Xvr3MoSb9-0yf562fTCEt73z/view?usp=sharing
