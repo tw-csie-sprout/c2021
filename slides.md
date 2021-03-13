@@ -31,3 +31,13 @@
 [hc-while]: https://drive.google.com/file/d/1Z96tUIa7Xvr3MoSb9-0yf562fTCEt73z/view?usp=sharing
 [hc-do-while]: https://hackmd.io/@i2y3z9dITSa_Q_7V7h-AoA/r1U_pZ1QO
 [hc-continue-break]: https://hackmd.io/@i2y3z9dITSa_Q_7V7h-AoA/HyHcP_JQd
+
+## 第二週投影片 03/13
+
+| 主題         | 北區                                      | 影片 | 竹區 |
+| ------------ | ----------------------------------------- | ---- | ---- |
+| For loop     ||| [Week3-0 For迴圈][hc-for-loop] |
+| 1D Array     ||| [Week3-1 一維陣列][hc-1d-array] |
+
+[hc-for-loop]: https://docs.google.com/presentation/d/1aVP6avP-h4LKeUqfbIU66rvz1XaLSUJ6P-4YAloFlpg/edit#slide=id.gc74ae06558_2_45
+[hc-1d-array]: https://docs.google.com/presentation/d/1rs2BYzIC8tnU5OOMOIWkijHF-s3Akst_9TO8I4Jlhl0/edit#slide=id.gc745111b34_3_45
