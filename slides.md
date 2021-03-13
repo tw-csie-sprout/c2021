@@ -21,11 +21,12 @@
 | 主題         | 北區                                      | 影片 | 竹區 |
 | ------------ | ----------------------------------------- | ---- | ---- |
 | if-else      | [Week2-0 If/Else][tp-if-else]             |      | [Week2-0 if-else][hc-if-else]    |
-| while loop   |                                           |      | [Week2-1 while][hc-while]     |
+| while loop   | [Week2-1 while][tp-while]                 |      | [Week2-1 while][hc-while]     |
 | do-while loop|                                           |      | [Week2-3 do-while][hc-do-while] |
 | continue, break|                                         |      | [Week2-4 continue-break][hc-continue-break] |
   
 [tp-if-else]: https://www.csie.ntu.edu.tw/~b06902029/reveal.js/Sprout/2021/IfElse/#/
+[tp-while]: https://slides.com/jt94/sprout-2021-while
 [hc-if-else]: https://docs.google.com/presentation/d/1ZOdWIh0Uvy6w6cOxNIVj8DJDrhSQY1elhFzm9mVeXmk/edit?usp=sharing
 [hc-while]: https://drive.google.com/file/d/1Z96tUIa7Xvr3MoSb9-0yf562fTCEt73z/view?usp=sharing
 [hc-do-while]: https://hackmd.io/@i2y3z9dITSa_Q_7V7h-AoA/r1U_pZ1QO
