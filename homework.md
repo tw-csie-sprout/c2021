@@ -5,7 +5,7 @@
 | 日期 | 週次 | 上課練習                                               | 勾選作業                                                     | 其他習題 | 檢討 |
 | :--: | :--: | :----------------------------------------------------- | :----------------------------------------------------------- | :------- | :--- |
 | 0306 |  01  | [287 - 喵][neoj-287]<br>[289 - 福祿猴的反敗][neoj-289] | [6002 - 小普敲鍵盤][neoj-6002]<br>[803 - 分數統計][neoj-803] |          |      |
-| 0313 |  02  | [208 - 季節判斷][neoj-208]<br>[893 - 數字塔][neoj-893] | | | |
+| 0313 |  02  | [208 - 季節判斷][neoj-208]<br>[893 - 數字塔][neoj-893] | [898 - 給我一個tempo][neoj-898]| | |
 
 [neoj-287]: https://neoj.sprout.tw/problem/287/
 [neoj-289]: https://neoj.sprout.tw/problem/289/
@@ -13,3 +13,4 @@
 [neoj-803]: https://neoj.sprout.tw/problem/803/
 [neoj-208]: https://neoj.sprout.tw/problem/208/
 [neoj-893]: https://neoj.sprout.tw/problem/893/
+[neoj-898]: https://neoj.sprout.tw/problem/898/
