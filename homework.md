@@ -16,3 +16,4 @@
 [neoj-893]: https://neoj.sprout.tw/problem/893/
 [neoj-898]: https://neoj.sprout.tw/problem/898/
 [neoj-523]: https://neoj.sprout.tw/problem/523/
+[neoj-953]: https://neoj.sprout.tw/problem/953/
