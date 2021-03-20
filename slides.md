@@ -36,10 +36,12 @@
 
 | 主題         | 北區                                      | 影片 | 竹區 |
 | ------------ | ----------------------------------------- | ---- | ---- |
-| For loop     ||| [Week3-0 For迴圈][hc-for-loop] |
+| For loop     |[Week3-0 For迴圈與一維陣列][tp-for-and-array]|| [Week3-0 For迴圈][hc-for-loop] |
 | 1D Array     ||| [Week3-1 一維陣列][hc-1d-array] |
-| 字元 、字串(C-style) ||| [Week3-2 字元 、字串(C-style)][hc-char] |
+| 字元 、字串(C-style) |[Week3-1 字元、字串(C-style)][tp-char]|| [Week3-2 字元 、字串(C-style)][hc-char] |
 
 [hc-for-loop]: https://docs.google.com/presentation/d/1aVP6avP-h4LKeUqfbIU66rvz1XaLSUJ6P-4YAloFlpg/edit#slide=id.gc74ae06558_2_45
 [hc-1d-array]: https://docs.google.com/presentation/d/1rs2BYzIC8tnU5OOMOIWkijHF-s3Akst_9TO8I4Jlhl0/edit#slide=id.gc745111b34_3_45
 [hc-char]: https://slides.com/hsutzu/char
+[tp-for-and-array]: https://drive.google.com/file/d/1_wF2Teh3V63Z0R6FNlHpGZ3x39XO8y77/view?usp=sharing
+[tp-char]: https://slides.com/jt94/sprout-2021-c-string
