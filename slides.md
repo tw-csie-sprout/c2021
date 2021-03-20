@@ -38,6 +38,8 @@
 | ------------ | ----------------------------------------- | ---- | ---- |
 | For loop     ||| [Week3-0 For迴圈][hc-for-loop] |
 | 1D Array     ||| [Week3-1 一維陣列][hc-1d-array] |
+| 字元 、字串(C-style) ||| [Week3-2 字元 、字串(C-style)][hc-char] |
 
 [hc-for-loop]: https://docs.google.com/presentation/d/1aVP6avP-h4LKeUqfbIU66rvz1XaLSUJ6P-4YAloFlpg/edit#slide=id.gc74ae06558_2_45
 [hc-1d-array]: https://docs.google.com/presentation/d/1rs2BYzIC8tnU5OOMOIWkijHF-s3Akst_9TO8I4Jlhl0/edit#slide=id.gc745111b34_3_45
+[hc-char]: https://slides.com/hsutzu/char
