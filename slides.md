@@ -49,7 +49,7 @@
 ## 第四週投影片 03/27
 | 主題         | 北區                                      | 影片 | 竹區 |
 | ------------ | ----------------------------------------- | ---- | ---- |
-|轉型、字串(常用函式)、函數呼叫 | | | [轉型、字串(常用函式)、函數呼叫][hc-functioncall] |
+|轉型、字串(常用函式)、函數呼叫 | | [北區直播錄影 (all)][tp-yt-stream] | [轉型、字串(常用函式)、函數呼叫][hc-functioncall] |
 | 亂數 | | | [亂數][hc-random] |
 | 函數呼叫＆亂數 | [函數呼叫][tp-functions] | | |
 |nD Array | [多維陣列][tp-ndarray]| |[多維陣列][hc-ndarray] |
@@ -62,3 +62,4 @@
 [hc-ndarray]: https://drive.google.com/file/d/1CiU1xrBzX6jHZ_FgoBgrlcZFqQqyxSMA/view?usp=sharing
 [hc-functioncall]: https://hackmd.io/@grorge/BJodMCKMd#/
 [hc-random]: https://hackmd.io/@grorge/SJ0YN0FMd#/
+[tp-yt-stream]: https://youtu.be/SceXzXxl_UY
