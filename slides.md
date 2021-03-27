@@ -49,8 +49,8 @@
 ## 第四週投影片 03/27
 | 主題         | 北區                                      | 影片 | 竹區 |
 | ------------ | ----------------------------------------- | ---- | ---- |
-|nD Array | [多維陣列][tp-ndarray]| |[hc-ndarray] |
-|資料型態 & 轉型| [資料型態 & 轉型][tp-typecasting]||[hc-typecasting]|
+|nD Array | [多維陣列][tp-ndarray]| |[多維陣列][hc-ndarray] |
+|資料型態 & 轉型| [資料型態 & 轉型][tp-typecasting]||[資料型態 & 轉型][hc-typecasting]|
 
 [tp-typecasting]: https://slides.com/arvinliu/typescasting
 [tp-ndarray]: https://slides.com/arvinliu/nd-array
