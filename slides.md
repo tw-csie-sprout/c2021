@@ -32,7 +32,7 @@
 [hc-do-while]: https://hackmd.io/@i2y3z9dITSa_Q_7V7h-AoA/r1U_pZ1QO
 [hc-continue-break]: https://hackmd.io/@i2y3z9dITSa_Q_7V7h-AoA/HyHcP_JQd
 
-## 第二週投影片 03/13
+## 第三週投影片 03/13
 
 | 主題         | 北區                                      | 影片 | 竹區 |
 | ------------ | ----------------------------------------- | ---- | ---- |
@@ -45,3 +45,12 @@
 [hc-char]: https://slides.com/hsutzu/char
 [tp-for-and-array]: https://drive.google.com/file/d/1_wF2Teh3V63Z0R6FNlHpGZ3x39XO8y77/view?usp=sharing
 [tp-char]: https://slides.com/jt94/sprout-2021-c-string
+
+## 第四週投影片 03/27
+| 主題         | 北區                                      | 影片 | 竹區 |
+| ------------ | ----------------------------------------- | ---- | ---- |
+|nD Array | [多維陣列][[tp-ndarray]| | |
+|資料型態 & 轉型| [資料型態 & 轉型][[tp-typecasting]]| |  |
+
+[tp-typecasting]: https://slides.com/arvinliu/typescasting
+[tp-ndarray]: https://slides.com/arvinliu/nd-array
