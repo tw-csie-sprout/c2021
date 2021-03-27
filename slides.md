@@ -49,6 +49,8 @@
 ## 第四週投影片 03/27
 | 主題         | 北區                                      | 影片 | 竹區 |
 | ------------ | ----------------------------------------- | ---- | ---- |
+|轉型、字串(常用函式)、函數呼叫 | | | [轉型、字串(常用函式)、函數呼叫][hc-functioncall] |
+| 亂數 | | | [亂數][hc-random] |
 |nD Array | [多維陣列][tp-ndarray]| |[多維陣列][hc-ndarray] |
 |資料型態 & 轉型| [資料型態 & 轉型][tp-typecasting]||[資料型態 & 轉型][hc-typecasting]|
 
@@ -56,3 +58,5 @@
 [tp-ndarray]: https://slides.com/arvinliu/nd-array
 [hc-typecasting]: https://docs.google.com/presentation/d/17hDzWNjVQO2qwvsmphYerxHBQlIJr3aJtyDc3_u8C2A/edit?usp=sharing
 [hc-ndarray]: https://drive.google.com/file/d/1CiU1xrBzX6jHZ_FgoBgrlcZFqQqyxSMA/view?usp=sharing
+[hc-functioncall]: https://hackmd.io/@grorge/BJodMCKMd#/
+[hc-random]: https://hackmd.io/@grorge/SJ0YN0FMd#/
