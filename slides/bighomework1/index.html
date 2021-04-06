@@ -1,0 +1,208 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Sprout C 2021 Big Homework 1 Slide</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/black.css" id="theme">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<section>
+						<h2>2021 資訊之芽</h2>
+						<h3>第一次大作業</h3>
+						<small>by Jason 🌱</small>
+					</section>
+					<section>
+						<h3>第一次大作業主題揭曉</h3>
+						<h2 class="fragment">🎉 Web Crawler with C(++) 🎉</h2>
+						<small class="fragment"><del>讓寫爬蟲不再是 Python 的專利 (?)</del></small>
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h2>什麼是爬蟲？</h2>
+						<h1 class="fragment">🐍</h1>
+					</section>
+					<section>
+						<h3>什麼是爬蟲？</h3>
+						<q cite="Wikipedia">網路爬蟲（英語：web crawler），也叫網路蜘蛛（spider），是一種用來<b style="color: LightSeaGreen">自動瀏覽全球資訊網的網路機器人</b>。其目的一般為編纂網路索引。</q>
+					</section>
+					<section>
+						<h3>簡單來說</h3>
+						<h4>爬蟲就是一個<b style="color: LightSeaGreen">自動化從網頁搜集資料</b>的程式！</h4>
+					</section>
+				</section>
+
+				<section>
+					<h2>一支合格的爬蟲需要 ...</h2>
+					<h3><span class="fragment">連上網路</span><span class="fragment"> ➔ 在網頁間移動</span><span class="fragment"> ➔ 擷取資料</span></h3>
+				</section>
+
+				<section>
+					<section>
+						<h3>一支合格的爬蟲需要<b style="color: LightSeaGreen">連上網路</b></h3><br>
+						<h2>所以寫這次的大作業需要網路</h2>
+						<del><h4 class="fragment fade-in-then-out">如果家裡沒有要請爸爸媽媽去辦ㄛ！</h4></del>
+					</section>
+					<section>
+						<h3>一支合格的爬蟲需要<b style="color: LightSeaGreen">連上網路</b></h3><br>
+						<h3>要怎麼讓 C(++) 程式連上網路呢？</h3>
+						<h4 class="fragment">用別人寫好的 Library！</h4>
+					</section>
+					<section>
+						<h3>要怎麼讓 C(++) 程式<b style="color: LightSeaGreen">連上網路</b>呢？</h3>
+						<img class="fragment" src="https://i.imgur.com/IhPpvZU.png" height="400">
+					</section>
+					<section>
+						<h3>How does libcurl work?</h3>
+						<img class="fragment" src="https://i.imgur.com/H0r2hnR.jpg" height="400">
+					</section>
+					<section>
+						<h4>我們已經幫各位把要用的功能包好 function 了</h4>
+						<h4>不過有興趣的可以自己去 <a href="https://curl.se/libcurl/">liburl</a> 網站研究研究 🧐</h4>
+					</section>
+					<section data-auto-animate>
+						<h3 data-id="code-title">取得網頁內容</h3>
+						<pre data-id="code-animation"><code class="hljs cpp" data-trim data-line-numbers>
+//  Request a page by url, the response content is stored
+//  in global char array buffer[], while status code (eg.
+//  200, 404) is returned.
+
+int requestPage(char url[]);
+
+						</code></pre>
+						<p>這個函數是各位在寫大作業一時最基本的工具喔！</p>
+					</section>
+					<section>
+						<h3>Example Usage</h3>
+						<pre data-id="code-animation"><code class="hljs cpp" data-trim data-line-numbers>
+							char url[MAX_LEN] = "https://curl.se/libcurl/";
+							int status;
+
+							do {
+							  status = requestPage(url);
+							} while (status != 200);
+
+							cout << buffer << endl;
+
+						</code></pre>
+					</section>
+					<section>
+						<h3>現在我們的程式可以<b style="color: LightSeaGreen">連上網路</b>了！</h3>
+						<img class="fragment" src="https://i.imgur.com/9ZCIYhk.png" height="400" alt="">
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h3>一支合格的爬蟲需要<b style="color: LightSeaGreen">在網頁間移動</b></h3><br>
+						<h4>Scenario 1 - Paging</h4>
+						<p>假設第 <b style="color: LightSeaGreen">2</b> 頁的網址長這樣：</p>
+						<p class="fragment">https://books.toscrape.com/catalogue/page-<b style="color: LightSeaGreen">2</b>.html</p>
+					</section>
+					<section>
+						<h3>一支合格的爬蟲需要<b style="color: LightSeaGreen">在網頁間移動</b></h3><br>
+						<h4>Scenario 1 - Paging</h4>
+						<p>那麼第 <b style="color: LightSeaGreen">n</b> 頁的網址應該長這樣：</p>
+						<p class="fragment">https://books.toscrape.com/catalogue/page-<b style="color: LightSeaGreen">n</b>.html</p>
+					</section>
+					<section>
+						<h3>一支合格的爬蟲需要<b style="color: LightSeaGreen">在網頁間移動</b></h3><br>
+						<h4>要怎麼自動爬完所有頁數呢？</h4>
+						<pre data-id="code-animation" class="fragment"><code class="hljs cpp" data-trim data-line-numbers>
+							int page, status;
+							char url[MAX_LEN];
+							char tem[] = "https://books.toscrape.com/catalogue/page-%d";
+
+							for(page = 0; status != 404; page++){
+							  sprintf(url, tem, page);
+							  status = requestPage(url);
+							  // some other logic to do with buffer[]
+							}
+						</code></pre>
+					</section>
+					<section>
+						<h3>一支合格的爬蟲需要<b style="color: LightSeaGreen">在網頁間移動</b></h3><br>
+						<h4>其他 Scenario？</h4>
+						<h4 class="fragment">就交給你各位去想啦 😉</h4>
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h3>一支合格的爬蟲需要<b style="color: LightSeaGreen">擷取資料</b></h3><br>
+						<h4>要怎麼從茫茫 html 大海中撈出我們要的資料呢？</h4>
+					</section>
+					<section>
+						<h3>一支合格的爬蟲需要<b style="color: LightSeaGreen">擷取資料</b></h3><br>
+						<h4>Q1. 怎麼描述想要的資料在哪裡？</h4>
+						<img src="https://i.imgur.com/Lxx5GeR.png" height="300" class="fragment">
+					</section>
+					<section>
+						<h3>一支合格的爬蟲需要<b style="color: LightSeaGreen">擷取資料</b></h3><br>
+						<h4>DOM Tree Example</h4>
+						<img src="https://www.w3schools.com/js/pic_htmltree.gif" height="300" alt="">
+						<h4 class="fragment">html > body > h1</h4>
+					</section>
+					<section>
+						<h3>一支合格的爬蟲需要<b style="color: LightSeaGreen">擷取資料</b></h3><br>
+						<h2>Demo Time</h2>
+					</section>
+					<section>
+						<h3>一支合格的爬蟲需要<b style="color: LightSeaGreen">擷取資料</b></h3><br>
+						<h5>我們可以用 Google 出的 Gumbo Parser 來把 html 轉換成 DOM tree</h5>
+						<img src="https://i.imgur.com/isQE0Jg.png" alt="" height="300">
+					</section>
+					<section>
+						<h3>一支合格的爬蟲需要<b style="color: LightSeaGreen">擷取資料</b></h3><br>
+						<h4>同樣的我們也幫各位把這功能包好 function 了</h4>
+						<pre data-id="code-animation"><code class="hljs cpp" data-trim data-line-numbers>
+//  Generate a DOM tree with given html[], strip selected
+//  data by selector css_selector[] and store into global
+//  stripped[] char array.
+
+void stripData(char html[], char css_selector[]);
+						</code></pre>
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h3><span class="fragment">連上網路</span><span class="fragment"> ➔ 在網頁間移動</span><span class="fragment"> ➔ 擷取資料</span></h3>
+						<h3 class="fragment">這次大作業需要的功能我們都能辦到了</h3>
+					</section>
+					<section>
+						<h3>那我們就來看看這次大作業的 <a href="https://hackmd.io/@jason1024/ByQSt11H_">Spec</a> 吧</h3>
+					</section>
+				</section>
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>
