@@ -70,7 +70,6 @@
 
 | 主題     | 北區                       | 影片 | 竹區 |
 | -------- | -------------------------- | ---- | ---- |
-| 大作業一 | [簡報][tp-hc-bighomework1] |      |      |
+| 大作業一 | [簡報][tp-bighomework1] |      |      |
 
 [tp-bighomework1]: https://tw-csie-sprout.github.io/c2021/slides/homework1/
-
