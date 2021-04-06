@@ -24,7 +24,7 @@
 | while loop   | [Week2-1 while][tp-while]                 |      | [Week2-1 while][hc-while]     |
 | do-while loop|                                           |      | [Week2-3 do-while][hc-do-while] |
 | continue, break|                                         |      | [Week2-4 continue-break][hc-continue-break] |
-  
+
 [tp-if-else]: https://www.csie.ntu.edu.tw/~b06902029/reveal.js/Sprout/2021/IfElse/#/
 [tp-while]: https://slides.com/jt94/sprout-2021-while
 [hc-if-else]: https://docs.google.com/presentation/d/1ZOdWIh0Uvy6w6cOxNIVj8DJDrhSQY1elhFzm9mVeXmk/edit?usp=sharing
@@ -63,3 +63,14 @@
 [hc-functioncall]: https://hackmd.io/@grorge/BJodMCKMd#/
 [hc-random]: https://hackmd.io/@grorge/SJ0YN0FMd#/
 [tp-yt-stream]: https://youtu.be/SceXzXxl_UY
+
+
+
+## 第六週投影片 04/10
+
+| 主題     | 北區                       | 影片 | 竹區 |
+| -------- | -------------------------- | ---- | ---- |
+| 大作業一 | [簡報][tp-hc-bighomework1] |      |      |
+
+[tp-bighomework1]: https://tw-csie-sprout.github.io/c2021/slides/homework1/
+
