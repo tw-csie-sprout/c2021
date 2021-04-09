@@ -170,9 +170,10 @@ int requestPage(char url[]);
 						<pre data-id="code-animation"><code class="hljs cpp" data-trim data-line-numbers>
 //  Generate a DOM tree with given html[], strip selected
 //  data by selector css_selector[] and store into global
-//  stripped[] char array.
+//  stripped[] char array. If there is no matching nodes,
+//  then it returns values other than 0
 
-void stripData(char html[], char css_selector[]);
+int stripData(char html[], char css_selector[]);
 						</code></pre>
 					</section>
 				</section>
