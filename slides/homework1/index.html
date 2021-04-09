@@ -168,12 +168,15 @@ int requestPage(char url[]);
 						<h3>一支合格的爬蟲需要<b style="color: LightSeaGreen">擷取資料</b></h3><br>
 						<h4>同樣的我們也幫各位把這功能包好 function 了</h4>
 						<pre data-id="code-animation"><code class="hljs cpp" data-trim data-line-numbers>
-//  Generate a DOM tree with given html[], strip selected
-//  data by selector css_selector[] and store into global
-//  stripped[] char array. If there is no matching nodes,
-//  then it returns values other than 0
+// Parse html in to global CDocument Object doc,
+// remember to parse html before stripping contents!
+void parseHtml(const char html[]);
 
-int stripData(char html[], char css_selector[]);
+// Strip content within global doc with specified CSS
+// selector, the stripped content is stored in global
+// char array stripped[], if there is no matching nodes
+// then it returns values other than 0
+int stripContent(const char selector[]);
 						</code></pre>
 					</section>
 				</section>
