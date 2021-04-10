@@ -71,5 +71,11 @@
 | 主題     | 北區                       | 影片 | 竹區 |
 | -------- | -------------------------- | ---- | ---- |
 | 大作業一 | [簡報][tp-bighomework1] |      |      |
+| Function | [簡報][tp-function] | | |
+| Coding-Style | [簡報][tp-codingstyle] | | |
 
 [tp-bighomework1]: https://tw-csie-sprout.github.io/c2021/slides/homework1/
+
+[tp-function]: https://slides.com/jt94/sprout-2021-function
+[tp-codingstyle]: https://slides.com/jt94/sprout-2021-coding-style
+
