@@ -70,6 +70,10 @@
 
 | 主題     | 北區                       | 影片 | 竹區 |
 | -------- | -------------------------- | ---- | ---- |
+| function |      |     | [Week6-0 編寫函數][hc-func] |
+| coding-style |     |     | [Week6-1 Coding-Style][hc-coding] |
 | 大作業一 | [簡報][tp-bighomework1] |      |      |
 
+[hc-func]: https://docs.google.com/presentation/d/1tHsME9T6z90DNAioHMEVd6_0g3JgOR4QShXr_SIGXXo/edit?usp=sharing
+[hc-coding]: https://docs.google.com/presentation/d/1fclOZSmzjopY6k7dNvbKjQMZowxdqZpEj5b5J73jJHk/edit?usp=sharing
 [tp-bighomework1]: https://tw-csie-sprout.github.io/c2021/slides/homework1/
