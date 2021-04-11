@@ -70,7 +70,7 @@
 
 | 主題     | 北區                       | 影片 | 竹區 |
 | -------- | -------------------------- | ---- | ---- |
-| 大作業一 | [簡報][tp-bighomework1] |      |      |
+| 大作業一 | [Week6 - 大作業][tp-bighomework1]、[SPEC][spec] | [北區直撥錄影][] | [Week6 - 大作業][tp-bighomework1] |
 | Function | [簡報][tp-function] | | [Week6-0 編寫函數][hc-func] |
 | Coding-Style | [簡報][tp-codingstyle] | | [Week6-1 Coding-Style][hc-coding] |
 
@@ -80,4 +80,9 @@
 
 [tp-function]: https://slides.com/jt94/sprout-2021-function
 [tp-codingstyle]: https://slides.com/jt94/sprout-2021-coding-style
+[spec]: https://hackmd.io/@jason1024/ByQSt11H_
+
+[tp-bighomework1video]: https://youtu.be/OQSs_FwS0TA
+
+
 
