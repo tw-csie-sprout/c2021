@@ -89,12 +89,16 @@
 
 | 主題     | 北區                       | 影片 | 竹區 |
 | -------- | -------------------------- | ---- | ---- |
-| 生命週期 | | | [Week7-2 變數生命週期][hc-scope] |
-| 標頭檔 | | | [Week7-3 標頭檔][hc-header] |
-| Struct |||[Struct][hc-struct]|
-| 修飾子 |||[修飾子][hc-qulifier]|
+| 生命週期 |[變數生命週期][tp-scope]| | [Week7-2 變數生命週期][hc-scope] |
+| 標頭檔 |[標頭檔][tp-header]| | [Week7-3 標頭檔][hc-header] |
+| Struct |[Struct][tp-struct]||[Struct][hc-struct]|
+| 修飾子 |[修飾子][tp-qulifier]||[修飾子][hc-qulifier]|
 
 [hc-scope]: https://docs.google.com/presentation/d/1OWG09OoEP9_sOKdmMPGXPr6p3RbRAf-ZerBXqNpbVjQ/edit?usp=sharing
 [hc-header]: https://docs.google.com/presentation/d/11RWKEOWb-Efgw8FUhyFDn8p9VkvEj-C3vgbuzST3QLw/edit?usp=sharing
 [hc-struct]:https://slides.com/hsutzu/struct
 [hc-qulifier]:https://slides.com/hsutzu/qualifier
+[tp-scope]:https://slides.com/allen522019/deck
+[tp-header]:https://drive.google.com/file/d/1sAUNCd79RDE23to8osthJQiw5zPAxPOP/view?usp=sharing
+[tp-struct]:https://drive.google.com/file/d/1uS75QV0z6nY2igrVuOWLILhnfrRpdrzg/view?usp=sharing
+[tp-qulifier]:https://slides.com/allen522019/copy-of
