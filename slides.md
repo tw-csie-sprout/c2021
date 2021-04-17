@@ -93,6 +93,7 @@
 | 標頭檔 | | | [Week7-3 標頭檔][hc-header] |
 | Struct |||[Struct][hc-struct]|
 | 修飾子 |||[修飾子][hc-qulifier]|
+
 [hc-scope]: https://docs.google.com/presentation/d/1OWG09OoEP9_sOKdmMPGXPr6p3RbRAf-ZerBXqNpbVjQ/edit?usp=sharing
 [hc-header]: https://docs.google.com/presentation/d/11RWKEOWb-Efgw8FUhyFDn8p9VkvEj-C3vgbuzST3QLw/edit?usp=sharing
 [hc-struct]:https://slides.com/hsutzu/struct
