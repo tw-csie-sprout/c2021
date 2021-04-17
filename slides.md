@@ -85,4 +85,12 @@
 [tp-bighomework1video]: https://youtu.be/OQSs_FwS0TA
 
 
+## 第七週投影片 04/17
 
+| 主題     | 北區                       | 影片 | 竹區 |
+| -------- | -------------------------- | ---- | ---- |
+| 生命週期 | | | [Week7-2 變數生命週期][hc-scope] |
+| 標頭檔 | | | [Week7-3 標頭檔][hc-header] |
+
+[hc-scope]: https://docs.google.com/presentation/d/1OWG09OoEP9_sOKdmMPGXPr6p3RbRAf-ZerBXqNpbVjQ/edit?usp=sharing
+[hc-header]: https://docs.google.com/presentation/d/11RWKEOWb-Efgw8FUhyFDn8p9VkvEj-C3vgbuzST3QLw/edit?usp=sharing
