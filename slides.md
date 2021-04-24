@@ -106,8 +106,10 @@
 ## 第八週投影片 04/24
 | 主題     | 北區                       | 影片 | 竹區 |
 | -------- | -------------------------- | ---- | ---- |
-| 遞迴 |[遞迴][tp-recursive]| | |
+| 遞迴 |[遞迴][tp-recursive]| | [遞迴][hc-recursive] |
 | 複習 |[複習][tp-review]| | [大複習][hc-review] |
+
 [tp-recursive]: https://slides.com/arvinliu/recur2
 [tp-review]: https://slides.com/arvinliu/1-review
 [hc-review]:https://hackmd.io/@grorge/S1tRawqLd#/
+[hc-recursive]: https://docs.google.com/presentation/d/1wPhK-l_60vItrsM3SNRoSXE8t0KeRnkuQaummTSW4Qw/edit?usp=sharing
