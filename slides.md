@@ -103,7 +103,6 @@
 [tp-struct]:https://drive.google.com/file/d/1uS75QV0z6nY2igrVuOWLILhnfrRpdrzg/view?usp=sharing
 [tp-qulifier]:https://slides.com/allen522019/copy-of
 
-<<<<<<< HEAD
 ## 第八週投影片 04/24
 | 主題     | 北區                       | 影片 | 竹區 |
 | -------- | -------------------------- | ---- | ---- |
@@ -112,4 +111,3 @@
 [tp-recursive]: https://slides.com/arvinliu/recur2
 [tp-review]: https://slides.com/arvinliu/1-review
 [hc-review]:https://hackmd.io/@grorge/S1tRawqLd#/
->>>>>>> 5a2241dfeda49a21a56cbce1fcb989b6b54f7cae
