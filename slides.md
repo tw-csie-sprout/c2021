@@ -102,3 +102,12 @@
 [tp-header]:https://drive.google.com/file/d/1sAUNCd79RDE23to8osthJQiw5zPAxPOP/view?usp=sharing
 [tp-struct]:https://drive.google.com/file/d/1uS75QV0z6nY2igrVuOWLILhnfrRpdrzg/view?usp=sharing
 [tp-qulifier]:https://slides.com/allen522019/copy-of
+
+## 第八週投影片 04/24
+| 主題     | 北區                       | 影片 | 竹區 |
+| -------- | -------------------------- | ---- | ---- |
+| 遞迴 |[遞迴][tp-recursive]| | |
+| 複習 |[複習][tp-review]| | |
+[tp-recursive]: https://slides.com/arvinliu/recur2
+[tp-review]: https://slides.com/arvinliu/1-review
+ 
