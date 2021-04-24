@@ -1,5 +1,5 @@
 # 課程講義
-
+## [北區直播影片全集 [YouTube]][all video]
 ## 第一週投影片 03/06
 
 | 主題         | 北區                                      | 影片 | 竹區 |
@@ -15,6 +15,7 @@
 [hc-intro]: https://docs.google.com/presentation/d/1e1REcy_nbvigyJs79X21qmIsjrq-xvYVJlRaqDChgD8/edit?usp=sharing
 [hc-getting-started]: https://docs.google.com/presentation/d/1PKSi_w4ByfEqsdobigMur0aPyXr9IeAcvP3H4d2ISiY/edit?usp=sharing
 [hc-variables]: https://slides.com/hsutzu/variable
+[all video]:https://www.youtube.com/playlist?list=PLp5kjMAmhp--QiLIDOK9-ZooCXSWaLRsG
 
 ## 第二週投影片 03/13
 
@@ -70,7 +71,7 @@
 
 | 主題     | 北區                       | 影片 | 竹區 |
 | -------- | -------------------------- | ---- | ---- |
-| 大作業一 | [Week6 - 大作業][tp-bighomework1]、[SPEC][spec] | [北區直撥錄影][] | [Week6 - 大作業][tp-bighomework1] |
+| 大作業一 | [Week6 - 大作業][tp-bighomework1]、[SPEC][spec] |  | [Week6 - 大作業][tp-bighomework1] |
 | Function | [簡報][tp-function] | | [Week6-0 編寫函數][hc-func] |
 | Coding-Style | [簡報][tp-codingstyle] | | [Week6-1 Coding-Style][hc-coding] |
 
