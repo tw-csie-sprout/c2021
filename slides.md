@@ -102,3 +102,12 @@
 [tp-header]:https://drive.google.com/file/d/1sAUNCd79RDE23to8osthJQiw5zPAxPOP/view?usp=sharing
 [tp-struct]:https://drive.google.com/file/d/1uS75QV0z6nY2igrVuOWLILhnfrRpdrzg/view?usp=sharing
 [tp-qulifier]:https://slides.com/allen522019/copy-of
+
+## 第八周投影片 04/24
+| 主題     | 北區                       | 影片 | 竹區 |
+| -------- | -------------------------- | ---- | ---- |
+| 遞迴 |  | |
+| 大複習 |  | [大複習][hc-review] |
+
+
+[hc-review]:https://hackmd.io/@grorge/S1tRawqLd#/
