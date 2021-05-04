@@ -114,3 +114,12 @@
 [tp-review]: https://slides.com/arvinliu/1-review
 [hc-review]:https://hackmd.io/@grorge/S1tRawqLd#/
 [hc-recursive]: https://docs.google.com/presentation/d/1wPhK-l_60vItrsM3SNRoSXE8t0KeRnkuQaummTSW4Qw/edit?usp=sharing
+
+## 第十週投影片 05/09
+| 主題         | 北區        | 影片        | 竹區                           |
+| ------------ | ----------- | ----------- | ------------------------------ |
+| 複雜度 | [複雜度][tp-complx] |  | [複雜度、二分搜][hc-combin] |
+| 二分搜 | [二分搜、排序][tp-binsort] |  | |
+| 排序 | [排序][tp-sort] |  | [排序][hc-sort] |
+
+[hc-combin]: https://hackmd.io/@3sM5hwzZQhSdPoJSYpIQGQ/rJitRFbcU?type=slide#/
