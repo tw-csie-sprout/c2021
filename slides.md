@@ -120,9 +120,10 @@
 | 主題     | 北區                       | 影片 | 竹區 |
 | -------- | -------------------------- | ---- | ---- |
 | 排序 | [排序][tp-sort] |  |  |
-| 時間複雜度| [時間複雜度][tp-complexity]| | |
+| 時間複雜度| [時間複雜度][tp-complexity]| |[時間複雜度][hc-complexity] |
 | 二分搜尋法 |[二分搜尋法][tp-binsearch]  | |  |
 
 [tp-binsearch]:https://slides.com/arvinliu/binary-search/
 [tp-complexity]: https://slides.com/arvinliu/time-complexity
 [tp-sort]: https://slides.com/leynachen/sprout-2020-c-c-basic-sorting-binary-search/fullscreen
+[hc-complexity]: https://hackmd.io/@polarz/ByDQVJXO_
