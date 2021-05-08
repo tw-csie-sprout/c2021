@@ -11,6 +11,7 @@
 | 0410| 05|[225-3n+1 Problem (II)][neoj-225] <br>[226-成績統計][neoj-226] |[696-矩陣卷積][neoj-696]<br>[841-圈圈叉叉][neoj-841]| |
 | 0417| 06| [214 - 踩地雷][neoj-214]<br>[226-成績統計][neoj-226] (自由練習不計分) |[3579-挑披薩][neoj-3579]<br>[570-你是自由的][neoj-570] | |
 | 0424| 06| |[349-瞬間移動 - 利用非歐幾里得幾何的世界][neoj-349]<br>[573-小普刷油漆][neoj-573] | |
+| 0508| 08| [148 - Guess Number]      | | [364 - ssǝnꓨ ɹǝqɯnN] |
 
 [neoj-287]: https://neoj.sprout.tw/problem/287/
 [neoj-289]: https://neoj.sprout.tw/problem/289/
@@ -40,3 +41,5 @@
 [neoj-570]: https://neoj.sprout.tw/problem/570/
 [neoj-573]: https://neoj.sprout.tw/problem/573/
 [neoj-349]: https://neoj.sprout.tw/problem/349/
+[neoj-148]: https://neoj.sprout.tw/problem/148/
+[neoj-364]: https://neoj.sprout.tw/problem/364/
