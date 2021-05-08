@@ -114,3 +114,14 @@
 [tp-review]: https://slides.com/arvinliu/1-review
 [hc-review]:https://hackmd.io/@grorge/S1tRawqLd#/
 [hc-recursive]: https://docs.google.com/presentation/d/1wPhK-l_60vItrsM3SNRoSXE8t0KeRnkuQaummTSW4Qw/edit?usp=sharing
+
+
+## 第九週投影片 05/08
+| 主題     | 北區                       | 影片 | 竹區 |
+| -------- | -------------------------- | ---- | ---- |
+| 排序 | | |  |
+| 時間複雜度| [時間複雜度][tp-complexity]| | |
+| 二分搜尋法 |[二分搜尋法][tp-binsearch]  | |  |
+
+[tp-binsearch]:https://slides.com/arvinliu/binary-search/
+[tp-complexity]: https://slides.com/arvinliu/time-complexity
