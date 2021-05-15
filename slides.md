@@ -119,7 +119,7 @@
 ## 第九週投影片 05/08
 | 主題     | 北區                       | 影片 | 竹區 |
 | -------- | -------------------------- | ---- | ---- |
-| 排序 | [排序][tp-sort] |  |  |
+| 排序 | [排序][tp-sort] |  |[排序][hc-sort]  |
 | 時間複雜度| [時間複雜度][tp-complexity]| |[時間複雜度][hc-complexity] |
 | 二分搜尋法 |[二分搜尋法][tp-binsearch]  | |  |
 
@@ -134,3 +134,4 @@
 [tp-sort]: https://slides.com/leynachen/sprout-2020-c-c-basic-sorting-binary-search/fullscreen
 [hc-complexity]: https://hackmd.io/@polarz/ByDQVJXO_
 [tp-pointer]: https://slides.com/jt94/sprout-2021-pointers
+[hc-sort]: https://hackmd.io/@nWxhMfNES0-4UHCSWXJMcg/SJhiPO0vd#/3
