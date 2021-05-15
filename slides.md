@@ -126,12 +126,16 @@
 ## 第十週投影片 05/15
 | 主題     | 北區                       | 影片 | 竹區 |
 | -------- | -------------------------- | ---- | ---- |
-| 指標 | [指標][tp-pointer] |  |  |
-| 指標與函數| | | |
+| 指標 | [指標][tp-pointer] |  |  [指標][hc-pointer]|
+| 指標與函數| | | [指標與函數][hc-ptr-func] |
 
 [tp-binsearch]:https://slides.com/arvinliu/binary-search/
 [tp-complexity]: https://slides.com/arvinliu/time-complexity
 [tp-sort]: https://slides.com/leynachen/sprout-2020-c-c-basic-sorting-binary-search/fullscreen
 [hc-complexity]: https://hackmd.io/@polarz/ByDQVJXO_
 [tp-pointer]: https://slides.com/jt94/sprout-2021-pointers
-[hc-sort]: https://hackmd.io/@nWxhMfNES0-4UHCSWXJMcg/SJhiPO0vd#/3
+
+[hc-pointer]: https://hackmd.io/@i2y3z9dITSa_Q_7V7h-AoA/B1hqrgkuO#/
+[hc-ptr-func]: https://docs.google.com/presentation/d/1hiOi-olieU3xwZNPESoWxuF09-lY8vXZX7iAf8Px20o/edit?usp=sharing
+[hc-sort]: https://hackmd.io/@nWxhMfNES0-4UHCSWXJMcg/SJhiPO0vd#/
+
