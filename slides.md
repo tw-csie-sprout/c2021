@@ -115,7 +115,6 @@
 [hc-review]:https://hackmd.io/@grorge/S1tRawqLd#/
 [hc-recursive]: https://docs.google.com/presentation/d/1wPhK-l_60vItrsM3SNRoSXE8t0KeRnkuQaummTSW4Qw/edit?usp=sharing
 
-
 ## 第九週投影片 05/08
 | 主題     | 北區                       | 影片 | 竹區 |
 | -------- | -------------------------- | ---- | ---- |
