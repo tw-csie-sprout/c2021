@@ -119,7 +119,7 @@
 ## 第九週投影片 05/08
 | 主題     | 北區                       | 影片 | 竹區 |
 | -------- | -------------------------- | ---- | ---- |
-| 排序 | [排序][tp-sort] |  |  |
+| 排序 | [排序][tp-sort] |  |[排序][hc-sort]  |
 | 時間複雜度| [時間複雜度][tp-complexity]| |[時間複雜度][hc-complexity] |
 | 二分搜尋法 |[二分搜尋法][tp-binsearch]  | |  |
 
@@ -136,3 +136,4 @@
 [tp-pointer]: https://slides.com/jt94/sprout-2021-pointers
 [hc-pointer]: https://hackmd.io/@i2y3z9dITSa_Q_7V7h-AoA/B1hqrgkuO#/
 [hc-ptr-func]: https://docs.google.com/presentation/d/1hiOi-olieU3xwZNPESoWxuF09-lY8vXZX7iAf8Px20o/edit?usp=sharing
+[hc-sort]: https://hackmd.io/@nWxhMfNES0-4UHCSWXJMcg/SJhiPO0vd#/
