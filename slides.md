@@ -115,11 +115,26 @@
 [hc-review]:https://hackmd.io/@grorge/S1tRawqLd#/
 [hc-recursive]: https://docs.google.com/presentation/d/1wPhK-l_60vItrsM3SNRoSXE8t0KeRnkuQaummTSW4Qw/edit?usp=sharing
 
-## 第十週投影片 05/09
-| 主題         | 北區        | 影片        | 竹區                           |
-| ------------ | ----------- | ----------- | ------------------------------ |
-| 複雜度 | [複雜度][tp-complx] |  | [複雜度、二分搜][hc-combin] |
-| 二分搜 | [二分搜、排序][tp-binsort] |  | |
-| 排序 | [排序][tp-sort] |  | [排序][hc-sort] |
+## 第九週投影片 05/08
+| 主題     | 北區                       | 影片 | 竹區 |
+| -------- | -------------------------- | ---- | ---- |
+| 排序 | [排序][tp-sort] |  |[排序][hc-sort]  |
+| 時間複雜度| [時間複雜度][tp-complexity]| |[時間複雜度][hc-complexity] |
+| 二分搜尋法 |[二分搜尋法][tp-binsearch]  | |  |
 
-[hc-combin]: https://hackmd.io/@3sM5hwzZQhSdPoJSYpIQGQ/rJitRFbcU?type=slide#/
+## 第十週投影片 05/15
+| 主題     | 北區                       | 影片 | 竹區 |
+| -------- | -------------------------- | ---- | ---- |
+| 指標 | [指標][tp-pointer] |  |  [指標][hc-pointer]|
+| 指標與函數| | | [指標與函數][hc-ptr-func] |
+
+[tp-binsearch]:https://slides.com/arvinliu/binary-search/
+[tp-complexity]: https://slides.com/arvinliu/time-complexity
+[tp-sort]: https://slides.com/leynachen/sprout-2020-c-c-basic-sorting-binary-search/fullscreen
+[hc-complexity]: https://hackmd.io/@polarz/ByDQVJXO_
+[tp-pointer]: https://slides.com/jt94/sprout-2021-pointers
+
+[hc-pointer]: https://hackmd.io/@i2y3z9dITSa_Q_7V7h-AoA/B1hqrgkuO#/
+[hc-ptr-func]: https://docs.google.com/presentation/d/1hiOi-olieU3xwZNPESoWxuF09-lY8vXZX7iAf8Px20o/edit?usp=sharing
+[hc-sort]: https://hackmd.io/@nWxhMfNES0-4UHCSWXJMcg/SJhiPO0vd#/
+
