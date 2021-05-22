@@ -138,3 +138,9 @@
 [hc-ptr-func]: https://docs.google.com/presentation/d/1hiOi-olieU3xwZNPESoWxuF09-lY8vXZX7iAf8Px20o/edit?usp=sharing
 [hc-sort]: https://hackmd.io/@nWxhMfNES0-4UHCSWXJMcg/SJhiPO0vd#/
 
+## 第十一周投影片 05/22
+| 主題     | 北區                       | 影片 | 竹區 |
+| -------- | -------------------------- | ---- | ---- |
+| string&stream |  |  |  [string&stream][hc-string] |
+
+[hc-string]:https://docs.google.com/presentation/d/18mD7y2utagig2Hb2_qxuAhJc8q8KGq67oOc-EIQcqvM/edit#slide=id.p
