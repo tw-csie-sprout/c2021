@@ -141,6 +141,7 @@
 ## 第十一周投影片 05/22
 | 主題     | 北區                       | 影片 | 竹區 |
 | -------- | -------------------------- | ---- | ---- |
-| string&stream |  |  |  [string&stream][hc-string] |
+| string&stream | [string&stream][tp-string] |  |  [string&stream][hc-string] |
 
 [hc-string]:https://docs.google.com/presentation/d/18mD7y2utagig2Hb2_qxuAhJc8q8KGq67oOc-EIQcqvM/edit#slide=id.p
+[tp-string]:https://drive.google.com/file/d/1xr52RKrohClccQEXpiUxGBoMtc7wima9/view?usp=sharing
