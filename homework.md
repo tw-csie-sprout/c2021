@@ -13,6 +13,7 @@
 | 0424| 08| [350 - 巴斯卡三角形][neoj-350] <br/> |[349 - 瞬間移動 - 利用非歐幾里得幾何的世界][neoj-349]<br>[573 - 小普刷油漆][neoj-573] | [138 - 円円數磁磚][neoj-138]  |
 | 0508| 09| [148 - Guess Number][neoj-148] <br/> [369 - 書瑾與他的泡泡們][neoj-369]     | [2219-成績排名][neoj-2219]<br />[6004-小普想要讓人進第二階段][neoj-6004]| [364 - ssǝnꓨ ɹǝqɯnN][neoj-364] <br />[72 -Happiness Function ][neoj-72] |
 |0515| 10| [1064 - 指標陣列最大值][neoj-1064] <br/> [1066 - 交換指標][neoj-1066]|[1065 - 指標陣列填填看][neoj-1065] <br/> [752 - 明明都是我先來的...][neoj-752]|||
+|0522| 11| |[2334 - 字串處理][neoj-2334] <br/> [2338 - 小普的密碼][neoj-2338]|||
 
 
 [neoj-287]: https://neoj.sprout.tw/problem/287/
@@ -55,3 +56,5 @@
 [neoj-1065]: https://neoj.sprout.tw/problem/1065/
 [neoj-1064]: https://neoj.sprout.tw/problem/1064/
 [neoj-752]: https://neoj.sprout.tw/problem/752/
+[neoj-2334]: https://neoj.sprout.tw/problem/2334/
+[neoj-2338]: https://neoj.sprout.tw/problem/2338/
