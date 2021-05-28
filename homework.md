@@ -14,7 +14,7 @@
 | 0501| 09| 階段考 |
 | 0508| 10| [148 - Guess Number][neoj-148] <br/> [369 - 書瑾與他的泡泡們][neoj-369]     | [2219-成績排名][neoj-2219]<br />[6004-小普想要讓人進第二階段][neoj-6004]| [364 - ssǝnꓨ ɹǝqɯnN][neoj-364] <br />[72 -Happiness Function ][neoj-72] |
 |0515| 11| [1064 - 指標陣列最大值][neoj-1064] <br/> [1066 - 交換指標][neoj-1066]|[1065 - 指標陣列填填看][neoj-1065] <br/> [752 - 明明都是我先來的...][neoj-752]|||
-|0522| 12| |[2334 - 字串處理][neoj-2334] <br/> [2338 - 小普的密碼][neoj-2338]|||
+|0522| 12| [441 - 禮貌校園][neoj-441] <br/> [442 - 向量加法][neoj-442] |[2334 - 字串處理][neoj-2334] <br/> [2338 - 小普的密碼][neoj-2338]|||
 |0529| 13| [250 - Linked-List][neoj-250] <br/> [170 - doubly linked list][neoj-170] | [589 - 管理貨櫃][neoj-589] <br/> [802 - Concatenatable Lists][neoj-802] | [1415 - 排隊問題][neoj-1415] | |
 
 
@@ -58,6 +58,8 @@
 [neoj-1065]: https://neoj.sprout.tw/problem/1065/
 [neoj-1064]: https://neoj.sprout.tw/problem/1064/
 [neoj-752]: https://neoj.sprout.tw/problem/752/
+[neoj-441]: https://neoj.sprout.tw/problem/441/
+[neoj-442]: https://neoj.sprout.tw/problem/442/
 [neoj-2334]: https://neoj.sprout.tw/problem/2334/
 [neoj-2338]: https://neoj.sprout.tw/problem/2338/
 [neoj-250]: https://neoj.sprout.tw/problem/250/
