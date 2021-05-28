@@ -145,3 +145,16 @@
 
 [hc-string]:https://docs.google.com/presentation/d/18mD7y2utagig2Hb2_qxuAhJc8q8KGq67oOc-EIQcqvM/edit#slide=id.p
 [tp-string]:https://drive.google.com/file/d/1xr52RKrohClccQEXpiUxGBoMtc7wima9/view?usp=sharing
+
+## 第十三週投影片 5/29
+| 主題     | 北區                       | 影片 | 竹區 |
+| -------- | -------------------------- | ---- | ---- |
+| struct(ptr), new/delete | [struct(ptr), new/delete][tp-struct-ptr] | | [struct(ptr), new/delete][hc-struct-ptr] |
+| linked list | [linked list][tp-linklist] | | [linked list][hc-linklist] |
+
+[tp-struct-ptr]: https://slides.com/allen522019/copy-of-463b6c
+[hc-struct-ptr]: https://docs.google.com/presentation/d/1EIdeXEeQZQlkbQmL0htl5PUv25OuKe9fn54yIeMbFp8/edit?usp=sharing
+[tp-linklist]: https://slides.com/jason-plainlog/linked-list/fullscreen
+[hc-linklist]: https://drive.google.com/file/d/14PmleOOgWl8vayY6WDCZRkAdUFpl00fi/view
+
+
