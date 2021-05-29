@@ -8,7 +8,7 @@
 
 ### Windows
 - Windows 安裝影片: https://drive.google.com/file/d/1QyQPO52HhtMxk3LxnTQSysuW-tUxOI-e/view?usp=sharing
-- Windows 安裝包: https://drive.google.com/file/d/1_0sEdoNJy78ugXnXJW9WDWrGQveDxSLc/view?usp=sharing
+- Windows 安裝包: https://drive.google.com/file/d/1vjKv9Vp1m2Hb5IWAgGgAcLMdcuaLiWEH/view?usp=sharing
 
 ### MacOS
 - MacOS 安裝影片: https://drive.google.com/file/d/1-GMMUBv3RsdvdBXglSfxWy8NJ6MWdk7F/view?usp=sharing
