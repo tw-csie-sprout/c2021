@@ -157,4 +157,10 @@
 [tp-linklist]: https://slides.com/jason-plainlog/linked-list/fullscreen
 [hc-linklist]: https://drive.google.com/file/d/14PmleOOgWl8vayY6WDCZRkAdUFpl00fi/view
 
+## 第十四週投影片 6/5
+| 主題     | 北區                       | 影片 | 竹區 |
+| -------- | -------------------------- | ---- | ---- |
+| template | [template][tp-template] | | |
+| STL | | | |
 
+[tp-template]: https://tw-csie-sprout.github.io/c2021/slides/template/
