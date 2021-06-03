@@ -1,5 +1,5 @@
 # 課程講義
-
+## [北區直播影片全集 [YouTube]][all video]
 ## 第一週投影片 03/06
 
 | 主題         | 北區                                      | 影片 | 竹區 |
@@ -15,6 +15,7 @@
 [hc-intro]: https://docs.google.com/presentation/d/1e1REcy_nbvigyJs79X21qmIsjrq-xvYVJlRaqDChgD8/edit?usp=sharing
 [hc-getting-started]: https://docs.google.com/presentation/d/1PKSi_w4ByfEqsdobigMur0aPyXr9IeAcvP3H4d2ISiY/edit?usp=sharing
 [hc-variables]: https://slides.com/hsutzu/variable
+[all video]:https://www.youtube.com/playlist?list=PLp5kjMAmhp--QiLIDOK9-ZooCXSWaLRsG
 
 ## 第二週投影片 03/13
 
@@ -70,7 +71,7 @@
 
 | 主題     | 北區                       | 影片 | 竹區 |
 | -------- | -------------------------- | ---- | ---- |
-| 大作業一 | [Week6 - 大作業][tp-bighomework1]、[SPEC][spec] | [北區直撥錄影][] | [Week6 - 大作業][tp-bighomework1] |
+| 大作業一 | [Week6 - 大作業][tp-bighomework1]、[SPEC][spec] |  | [Week6 - 大作業][tp-bighomework1] |
 | Function | [簡報][tp-function] | | [Week6-0 編寫函數][hc-func] |
 | Coding-Style | [簡報][tp-codingstyle] | | [Week6-1 Coding-Style][hc-coding] |
 
@@ -106,8 +107,54 @@
 ## 第八週投影片 04/24
 | 主題     | 北區                       | 影片 | 竹區 |
 | -------- | -------------------------- | ---- | ---- |
-| 遞迴 |[遞迴][tp-recursive]| | |
+| 遞迴 |[遞迴][tp-recursive]| | [遞迴][hc-recursive] |
 | 複習 |[複習][tp-review]| | [大複習][hc-review] |
+
 [tp-recursive]: https://slides.com/arvinliu/recur2
 [tp-review]: https://slides.com/arvinliu/1-review
 [hc-review]:https://hackmd.io/@grorge/S1tRawqLd#/
+[hc-recursive]: https://docs.google.com/presentation/d/1wPhK-l_60vItrsM3SNRoSXE8t0KeRnkuQaummTSW4Qw/edit?usp=sharing
+
+## 第十週投影片 05/08
+| 主題     | 北區                       | 影片 | 竹區 |
+| -------- | -------------------------- | ---- | ---- |
+| 排序 | [排序][tp-sort] |  |[排序][hc-sort]  |
+| 時間複雜度| [時間複雜度][tp-complexity]| |[時間複雜度][hc-complexity] |
+| 二分搜尋法 |[二分搜尋法][tp-binsearch]  | |  |
+
+## 第十一週投影片 05/15
+| 主題     | 北區                       | 影片 | 竹區 |
+| -------- | -------------------------- | ---- | ---- |
+| 指標 | [指標][tp-pointer] |  |  [指標][hc-pointer]|
+| 指標與函數| | | [指標與函數][hc-ptr-func] |
+
+[tp-binsearch]:https://slides.com/arvinliu/binary-search/
+[tp-complexity]: https://slides.com/arvinliu/time-complexity
+[tp-sort]: https://slides.com/leynachen/sprout-2020-c-c-basic-sorting-binary-search/fullscreen
+[hc-complexity]: https://hackmd.io/@polarz/ByDQVJXO_
+[tp-pointer]: https://slides.com/jt94/sprout-2021-pointers
+
+[hc-pointer]: https://hackmd.io/@i2y3z9dITSa_Q_7V7h-AoA/B1hqrgkuO#/
+[hc-ptr-func]: https://docs.google.com/presentation/d/1hiOi-olieU3xwZNPESoWxuF09-lY8vXZX7iAf8Px20o/edit?usp=sharing
+[hc-sort]: https://hackmd.io/@nWxhMfNES0-4UHCSWXJMcg/SJhiPO0vd#/
+
+## 第十二週投影片 05/22
+| 主題     | 北區                       | 影片 | 竹區 |
+| -------- | -------------------------- | ---- | ---- |
+| string&stream | [string&stream][tp-string] |  |  [string&stream][hc-string] |
+
+[hc-string]:https://docs.google.com/presentation/d/18mD7y2utagig2Hb2_qxuAhJc8q8KGq67oOc-EIQcqvM/edit#slide=id.p
+[tp-string]:https://drive.google.com/file/d/1xr52RKrohClccQEXpiUxGBoMtc7wima9/view?usp=sharing
+
+## 第十三週投影片 5/29
+| 主題     | 北區                       | 影片 | 竹區 |
+| -------- | -------------------------- | ---- | ---- |
+| struct(ptr), new/delete | [struct(ptr), new/delete][tp-struct-ptr] | | [struct(ptr), new/delete][hc-struct-ptr] |
+| linked list | [linked list][tp-linklist] | | [linked list][hc-linklist] |
+
+[tp-struct-ptr]: https://slides.com/allen522019/copy-of-463b6c
+[hc-struct-ptr]: https://docs.google.com/presentation/d/1EIdeXEeQZQlkbQmL0htl5PUv25OuKe9fn54yIeMbFp8/edit?usp=sharing
+[tp-linklist]: https://slides.com/jason-plainlog/linked-list/fullscreen
+[hc-linklist]: https://drive.google.com/file/d/14PmleOOgWl8vayY6WDCZRkAdUFpl00fi/view
+
+
