@@ -160,8 +160,10 @@
 ## 第十四週投影片 6/5
 | 主題     | 北區                       | 影片 | 竹區 |
 | -------- | -------------------------- | ---- | ---- |
-| template | [template][tp-template] | | |
-| STL | [STL][tp-STL] | | |
+| template | [template][tp-template] | | [template&STL][hc-template_STL]|
+| STL | [STL][tp-STL] | | [Data Structure][hc-ds] |
 
 [tp-template]: https://tw-csie-sprout.github.io/c2021/slides/template/
 [tp-STL]:https://drive.google.com/file/d/1_BoG39AWMQndIadNQgcyvTtk1cJB0R3S/view?usp=sharing
+[hc-template_STL]:https://hackmd.io/@polarz/BJwMhXUqO
+[hc-ds]:https://docs.google.com/presentation/d/17gvMrWnxOlrunoFmfJRTLkL0Sjh4Zi8V6pAMoXamEqY/edit?usp=sharing
