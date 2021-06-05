@@ -161,6 +161,7 @@
 | 主題     | 北區                       | 影片 | 竹區 |
 | -------- | -------------------------- | ---- | ---- |
 | template | [template][tp-template] | | |
-| STL | | | |
+| STL | [STL][tp-STL] | | |
 
 [tp-template]: https://tw-csie-sprout.github.io/c2021/slides/template/
+[tp-STL]:https://drive.google.com/file/d/1_BoG39AWMQndIadNQgcyvTtk1cJB0R3S/view?usp=sharing
