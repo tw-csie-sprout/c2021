@@ -164,6 +164,6 @@
 | STL | [STL][tp-STL] | | [STLData Structure][hc-ds] |
 
 [tp-template]: https://tw-csie-sprout.github.io/c2021/slides/template/
-[tp-STL]:https://drive.google.com/file/d/1_BoG39AWMQndIadNQgcyvTtk1cJB0R3S/view?usp=sharing
+[tp-STL]:https://drive.google.com/file/d/19Gt3x4lSyWdli5M_OqEA9ZvbiuAeNEKV/view?usp=sharing
 [hc-template]:https://hackmd.io/@polarz/BJwMhXUqO
 [hc-ds]:https://docs.google.com/presentation/d/17gvMrWnxOlrunoFmfJRTLkL0Sjh4Zi8V6pAMoXamEqY/edit?usp=sharing
