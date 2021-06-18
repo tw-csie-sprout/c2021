@@ -167,3 +167,15 @@
 [tp-STL]:https://drive.google.com/file/d/19Gt3x4lSyWdli5M_OqEA9ZvbiuAeNEKV/view?usp=sharing
 [hc-template]:https://hackmd.io/@polarz/BJwMhXUqO
 [hc-ds]:https://docs.google.com/presentation/d/17gvMrWnxOlrunoFmfJRTLkL0Sjh4Zi8V6pAMoXamEqY/edit?usp=sharing
+
+## 第十六週投影片 6/19
+
+| 主題     | 北區                       | 影片 | 竹區 |
+| -------- | -------------------------- | ---- | ---- |
+| 遞迴二 | [遞迴二][tp-rec2] | | [遞迴二][hc-rec2]|
+| STL Function | [STL Function][tp-STLfunc] | | [STL Function][hc-STLfunc] |
+
+[tp-rec2]: https://slides.com/arvinliu/recur2
+[hc-rec2]: https://docs.google.com/presentation/d/18j_rxiyGfwE_Qzk9bae73YyityR8W3bhTqKvh-wKxwg/edit?usp=sharing
+[tp-STLfunc]: https://www.csie.ntu.edu.tw/~b06902029/reveal.js/Sprout/2021/STL-Functions/#/
+[hc-STLfunc]: https://docs.google.com/presentation/d/1E8xIcCtV5v-wTJUXw9WY6wwKt4wtRr0EFbNygLksgvo/edit?usp=sharing
