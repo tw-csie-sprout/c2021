@@ -172,10 +172,14 @@
 
 | 主題     | 北區                       | 影片 | 竹區 |
 | -------- | -------------------------- | ---- | ---- |
-| 遞迴二 | [遞迴二][tp-rec2] | | [遞迴二][hc-rec2]|
-| STL Function | [STL Function][tp-STLfunc] | | [STL Function][hc-STLfunc] |
+| 遞迴二 | [遞迴二][tp-rec2] | [北區直播影片 [YouTube]][tp-stream-0619-1] | [遞迴二][hc-rec2]|
+| STL Function | [STL Function][tp-STLfunc] | [北區直播影片 [YouTube]][tp-stream-0619-2] | [STL Function][hc-STLfunc] |
+| 回顧與展望 | [回顧與展望][tp-Big-Review] | |  |
 
 [tp-rec2]: https://slides.com/arvinliu/recur2
 [hc-rec2]: https://docs.google.com/presentation/d/18j_rxiyGfwE_Qzk9bae73YyityR8W3bhTqKvh-wKxwg/edit?usp=sharing
 [tp-STLfunc]: https://www.csie.ntu.edu.tw/~b06902029/reveal.js/Sprout/2021/STL-Functions/#/
+[tp-Big-Review]: https://www.csie.ntu.edu.tw/~b06902029/reveal.js/Sprout/2021/Review-2/#/
 [hc-STLfunc]: https://docs.google.com/presentation/d/1E8xIcCtV5v-wTJUXw9WY6wwKt4wtRr0EFbNygLksgvo/edit?usp=sharing
+[tp-stream-0619-1]: https://youtu.be/452ViGYvg1M
+[tp-stream-0619-2]: https://youtu.be/ypaJPo1dKiE
