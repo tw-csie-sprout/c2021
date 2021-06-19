@@ -18,8 +18,10 @@
 |0529| 13| [250 - Linked-List][neoj-250] <br/> [170 - doubly linked list][neoj-170] | [589 - 管理貨櫃][neoj-589] <br/> [802 - Concatenatable Lists][neoj-802] | [1415 - 排隊問題][neoj-1415] | |
 |0605| 14| [36 - stack練習][neoj-36] <br/> [37 - queue練習][neoj-37] | [466 - 迷幻村與迷宮村][neoj-466] <br/> [957 - 火車觀景台][neoj-957] | | |
 |0612| 15| 端午節 | | |
-|0619| 16| [154 - 河內之塔][neoj-154] <br/> [42 - 庭院裡的水池][neoj-42] <br/> [471 - 總之就是背包問題][neoj-471] <br/> [804 - 排序商品][neoj-804] | [6666 - 孔明の罠 - Kaizo Trap][neoj-6666] | |
+|0619| 16| [154 - 河內之塔][neoj-154] <br/> [42 - 庭院裡的水池][neoj-42] <br/> [471 - 總之就是背包問題][neoj-471] <br/> [804 - 排序商品][neoj-804] | [6666 - 孔明の罠 - Kaizo Trap][neoj-6666] <br />[468 - 加法減法問題][neoj-468]| [352-SuDoKu][neoj-352]|
 
+[neoj-352]: https://neoj.sprout.tw/problem/352/
+[neoj-468]: https://neoj.sprout.tw/problem/468/
 [neoj-6666]: https://neoj.sprout.tw/problem/6666/
 [neoj-804]: https://neoj.sprout.tw/problem/804/
 [neoj-471]: https://neoj.sprout.tw/problem/471/
